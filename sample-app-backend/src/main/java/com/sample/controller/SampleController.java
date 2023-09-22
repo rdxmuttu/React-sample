@@ -14,7 +14,7 @@ import com.sample.model.SampleEntity;
 
 @RestController
 @RequestMapping("/api/sample")
-@CrossOrigin("*")
+@CrossOrigin(origins = "*")
 public class SampleController {
 	List<SampleEntity> entityList = new ArrayList<>();
 	
